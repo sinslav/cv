@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px; }
+
+.topLine {
+  background-color: #333333;
+  color: #ffffff;
+  min-height: 25vh;
+  text-align: center; }
+  .topLine .logo {
+    display: inline-block;
+    margin: 7vh auto 2vh auto;
+    padding: 0.3em 0.5em;
+    font-size: 2.461538462em;
+    text-transform: uppercase;
+    border: 0.07692em solid #ffffff;
+    white-space: nowrap; }

@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+// variables
+
+$darkGrey: #333333;
+$whiteColor: #ffffff;
+
+@mixin column($columnColor) {
+	background-color: $columnColor;	
+}
+
+body{
+		font-family: 'Quicksand', sans-serif;
+		font-size: 13px;
+
+}
+
+.topLine{
+	background-color: $darkGrey;
+	color: $whiteColor;
+	min-height: 25vh;
+	text-align: center;
+	.logo{
+		display:inline-block;
+		margin: 7vh auto 2vh auto;
+		padding: 0.3em 0.5em;
+		font-size: 2.461538462em;
+		text-transform: uppercase;
+		border: 0.076923077em solid $whiteColor;
+		//logo-nowrap
+		white-space: nowrap;
+
+;
+
+
+
+	}
+}
+.leftmain{
+}
+
+
+.rightmain{
+}
