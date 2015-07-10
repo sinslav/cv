@@ -200,37 +200,42 @@ body {
     font-weight: 300;
     text-align: center;
     font-size: 1.5em;
-    transition: top 0.2s ease, opacity 0.2s ease; }
-  @media (max-width: 760px) {
-    .resp_wrapper body {
-      min-width: 320px;
-      font-size: 12px; }
-    .resp_wrapper .intro_message_box {
-      padding: 1.5em; }
-      .resp_wrapper .intro_message_box:before {
-        left: 44%;
-        top: -2.5em;
-        border-color: transparent transparent #d5e1d7 transparent; }
-    .resp_wrapper .contact li {
-      font-size: 1.2em;
-      line-height: 2em; } }
-  @media (max-width: 992px) {
-    .resp_wrapper .print_me {
-      display: none; }
-    .resp_wrapper .content_lid_name {
-      font-size: 1.3em;
-      font-weight: 700;
-      padding-bottom: 1em; } }
-  @media (min-width: 992px) {
-    .resp_wrapper .vertical-align {
-      display: flex;
-      align-items: center; }
-    .resp_wrapper .content_lid_name {
-      /* color: lighten($darkGrey, 25%); */
-      color: #ffffff;
-      font-weight: bold;
-      font-size: 1.5em;
-      padding-left: 0.3	em;
-      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25); }
-    .resp_wrapper .content_wrapper {
-      background-image: linear-gradient(102deg, #d5e1d7 18%, #edf2ee 18%); } }
+    transition: top 0.3s ease, opacity 0.3s ease; }
+
+@media (max-width: 760px) {
+  body {
+    min-width: 320px;
+    font-size: 12px; }
+
+  .intro_message_box {
+    padding: 1.5em; }
+    .intro_message_box:before {
+      left: 44%;
+      top: -2.5em;
+      border-color: transparent transparent #d5e1d7 transparent; }
+
+  .contact li {
+    font-size: 1.2em;
+    line-height: 2em; } }
+@media (max-width: 992px) {
+  .print_me {
+    display: none; }
+
+  .content_lid_name {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-bottom: 1em; } }
+@media (min-width: 992px) {
+  .vertical-align {
+    display: flex;
+    align-items: center; }
+
+  .content_lid_name {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 0.3	em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25); }
+
+  .content_wrapper {
+    background-image: linear-gradient(102deg, #d5e1d7 18%, #edf2ee 18%); } }

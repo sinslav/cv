@@ -258,6 +258,7 @@ body{
 		}
 	}
 }
+
 .job{
 	.job_list{
 		padding-bottom: 3em;
@@ -291,9 +292,10 @@ body{
 		text-align: center;
 		font-size: 1.5em;
 		transition: 
-		    top 0.2s ease,
-		    opacity 0.2s ease;
+		    top 0.3s ease,
+		    opacity 0.3s ease;
 	}
+}
 
 
 @media (max-width: 760px) {
@@ -334,16 +336,13 @@ body{
 	}
 	
 	.content_lid_name{
-		/* color: lighten($darkGrey, 25%); */
 		color: $whiteColor;
 		font-weight: bold;
 		font-size: 1.5em;
 		padding-left: 0.3	em;
 		text-shadow: 2px 2px 0px rgba(0,0,0,0.25);
-
 	}
 	.content_wrapper{
 		 background-image: linear-gradient(102deg, $MessageBoxColor 18%, lighten($MessageBoxColor, 8%) 18%);
 	}
-}
 }
