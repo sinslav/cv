@@ -264,6 +264,11 @@ body{
 		padding-bottom: 3em;
 		@include detailColumn(left);
 
+		li{
+			padding-top: 1em;
+
+		}
+
 
 	}
 }

@@ -182,6 +182,8 @@ body {
   font-size: 1.14em;
   line-height: 1.7em;
   list-style-type: none; }
+  .job .job_list li {
+    padding-top: 1em; }
 
 .resp_wrapper {
   position: relative; }
