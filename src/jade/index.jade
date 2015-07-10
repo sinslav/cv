@@ -3,7 +3,7 @@ html(lang="en")
   head
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0")
 
     title Sinchenko Yaroslav
     link(rel='stylesheet' href='assets/css/bootstrap.min.css')
@@ -13,12 +13,161 @@ html(lang="en")
     script (src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js")
     script (src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js")
     <![endif]-->
+    script(href="assets/js/svg-injector.min.js")
   body
     .container-fluid
-      .row.topLine
-        .col-sm-8.col-sm-offset-2.col-xs-12
-            .logo slava sinchenko
+      .row.top_menu_line
+        .col-xs-12.col-sm-8.col-sm-offset-2.no-padding
+            .logo ~ slava sinchenko ~ 
+            .lid_wrapper
+                .lid Frontend / JavaScript developer
+                .position (junior/trainee)
+
     .container
         .row
-            .col-xs-12.col-sm-4.leftmain leftCol
-            .col-xs-12.col-sm-8.rightmain rightCol
+            .col-xs-12.col-sm-4.left_col_wrapper
+                .my_photo
+                .stats_wrapper
+                    .row
+                        .col-sm-9.col-sm-offset-2.block_name.no-padding Skills
+                        .col-xs-6.col-sm-9.col-sm-offset-2.no-padding
+                            ul.skill_list
+                                li.oneskill
+                                    .skill_name HTML&CSS3
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star.active
+                                        li.star.active 
+                                        li.star 
+                                 li.oneskill
+                                    .skill_name bootstrap
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star.active
+                                        li.star 
+                                        li.star 
+                                li.oneskill
+                                    .skill_name js (vanilla)
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star.semi_active
+                                        li.star 
+                                        li.star  
+                                li.oneskill
+                                    .skill_name sass & LESS
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star.semi_active
+                                        li.star 
+                                        li.star 
+                        .col-xs-6.col-sm-9.col-sm-offset-2.no-padding
+                            ul.skill_list
+                                li.oneskill
+                                    .skill_name gulp
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star
+                                        li.star 
+                                        li.star 
+                                li.oneskill
+                                    .skill_name git
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star
+                                        li.star 
+                                        li.star 
+                                li.oneskill
+                                    .skill_name photoshop
+                                    ul.star_group
+                                        li.star.active
+                                        li.star.active
+                                        li.star.active
+                                        li.star.active
+                                        li.star 
+
+            .col-xs-12.col-sm-8
+                .row.right_col_wrapper
+                    .col-xs-12
+                        .intro_message_box Hello! I'm a beginner coder and looking for position of trainee / junior Front End / JavaScript developer. Understanding of project lifecycle and scrum methodology. Upper-Intermediate English. Result-oriented, agile person. Really Fast learning.
+                    .col-xs-12.col-md-9.infoblock
+                        .block_name contact me
+                        .row.contact
+                            .col-xs-5.contact_col
+                                ul
+                                    li telephone
+                                    li email 
+                                    li skype
+                            .col-xs-7.contact_col_right.no-padding
+                                ul.no-padding
+                                    li 
+                                        a(href="tel:+38 (063) 238 19 43") +38 (063) 238 19 43
+                                    li 
+                                        a(href="mailto:sinslav@gmail.com") sinslav@gmail.com
+                                    li
+                                        a(href="skype:sinchenko_s?call") sinchenko_s
+                    .col-xs-12.print_me.col-md-3.infoblock 
+                        a.print(href="javascript:window.print();")
+                            .print_btn
+                                img.prntsvg(src="assets/img/printer.svg")
+                                div Print this cv
+                    .col-xs-12.infoblock
+                        .content_wrapper
+                            .row.vertical-align
+                                .col-md-2
+                                    .content_lid_name EDU
+                                .col-md-10 
+                                    table.edu_table
+                                        tr
+                                            td 2005-2010
+                                            td National aviation university (computer automation)
+                                        tr
+                                            td 2015
+                                            td 
+                                                a(target="_blank" href="http://i.imgur.com/AB3Tlb4.jpg") ITEA  - JavaScript Advanced
+                                        tr
+                                            td 2015
+                                            td 
+                                                a(target="_blank" href="http://i.imgur.com/AB3Tlb4.jpg") ITEA  - JavaScript Professional
+                                        tr
+                                            td 2015
+                                            td
+                                                a(target="_blank" href="https://drive.google.com/file/d/0B1Rmcaufs7ajMGJ3R3V4MG1HSjg/view") WebPromoExperts  -  Web Analutics
+                                        tr
+                                            td 2015
+                                            td 
+                                                a(target="_blank" href="https://drive.google.com/file/d/0B1Rmcaufs7ajanM1cFZoOE94NlNSeVQ5RDBMbXNkRXRpdGhF/view?usp=sharing") WebPromoExperts  -  Usability
+                    .col-xs-12.infoblock
+                        .content_wrapper
+                            .row.vertical-align
+                                .col-md-2
+                                    .content_lid_name EXP
+                                .col-md-10 
+                                    table.edu_table
+                                        tr
+                                            td 2010-2015
+                                            td web-manager at 
+                                                a(target="_blank" href="http://www.umh.com.ua/ru/umh-business/our-business") UMH group
+                                        
+                    .col-xs-12.job.infoblock
+                        .row
+                            .col-xs-12
+                                .block_name  Portfolio
+                                .col-xs-12
+                                    ul.job_list
+                                        li
+                                            a(href="#") This CV-page
+                                        li
+                                            a(target="_blank" href="https://github.com/sinslav/sinslavmessenger") One page messenger-application (in progress)
+                                        li
+                                            a(target="_blank" href="http://codepen.io/sinslav/") Popover to ukranian city-site
+    .container-fluid
+        .row
+            .col-xs-offset-4.col-xs-4.resp_wrapper
+                .looks_good_text Look good on any device
+                img.responsive(src="assets/img/responsive.svg")

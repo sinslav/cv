@@ -1,3 +1,9 @@
+## 4.1.16
+* Fix errors without stack trace.
+
+## 4.1.15
+* Allow asynchronous plugins to change processor plugins list (by Ben Briggs).
+
 ## 4.1.14
 * Fix for plugins packs defined by `postcss.plugin`.
 
